@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
               />
               <h2 className="text-center mt-2 text-lg">Iran Garcia</h2>
               <p className="text-center mt-1 mb-10 text-sm">
-                aspirante a front-end dev.
+                aspirante a front-end dev. criando coisas inúteis.
               </p>
 
               <Component {...pageProps} />
