@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
           <RiTwitterFill className="inline pr-2 text-3xl hover:text-green-450" />
         </a>
         <a href="https://linkedin.com/in/irangarciaj" rel="noopener noreferrer">
-          <RiLinkedinFill className="inline text-3xl hover:text-green-450" />
+          <RiLinkedinFill className="inline text-2xl hover:text-green-450" />
         </a>
         <span className="block mt-1">irangarcia @ 2020</span>
       </footer>
