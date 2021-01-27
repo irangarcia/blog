@@ -29,13 +29,13 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
       <footer className="text-center text-gray-500 text-sm my-5">
-        <a href="https://github.com/irangarcia">
+        <a href="https://github.com/irangarcia" rel="noopener noreferrer">
           <RiGithubFill className="inline pr-2 text-3xl hover:text-green-450" />
         </a>
-        <a href="">
+        <a href="https://twitter.com/irangarciaz" rel="noopener noreferrer">
           <RiTwitterFill className="inline pr-2 text-3xl hover:text-green-450" />
         </a>
-        <a href="">
+        <a href="https://linkedin.com/in/irangarciaj" rel="noopener noreferrer">
           <RiLinkedinFill className="inline pr-2 text-3xl hover:text-green-450" />
         </a>
         <span className="block mt-1">irangarcia @ 2020</span>
