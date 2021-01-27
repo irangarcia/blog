@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import { RiLinkedinFill, RiGithubFill, RiTwitterFill } from 'react-icons/ri';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
@@ -29,7 +29,16 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
       <footer className="text-center text-gray-500 text-sm my-5">
-        irangarcia @ 2020
+        <a href="https://github.com/irangarcia">
+          <RiGithubFill className="inline pr-2 text-3xl hover:text-green-450" />
+        </a>
+        <a href="">
+          <RiTwitterFill className="inline pr-2 text-3xl hover:text-green-450" />
+        </a>
+        <a href="">
+          <RiLinkedinFill className="inline pr-2 text-3xl hover:text-green-450" />
+        </a>
+        <span className="block mt-1">irangarcia @ 2020</span>
       </footer>
     </>
   );

@@ -2,21 +2,20 @@ import Link from 'next/link';
 import axios from 'axios';
 
 const HomePage = ({ posts }) => {
-  console.log(posts);
   return (
     <div>
       {posts.map((post) => {
         return (
           <div key={post.id} className="mt-6">
-            <div className="max-w-4xl mx-auto px-10 py-6 bg-white dark: rounded-lg shadow-md">
+            <div className="max-w-2xl mx-auto px-10 py-6 bg-white dark: rounded-lg shadow-md">
               <div className="flex justify-between items-center">
-                <span className="font-light dark:text-white text-gray-600">
+                <span className="font-light dark:text-white text-sm text-gray-600 lowercase">
                   {post.readable_publish_date}
                 </span>
               </div>
               <div className="mt-2">
                 <Link href={`/posts/${post.id}`}>
-                  <a className="text-2xl text-gray-700 dark:text-white font-bold hover:underline">
+                  <a className="text-2xl text-gray-800 dark:text-white font-bold hover:underline">
                     {post.title}
                   </a>
                 </Link>
